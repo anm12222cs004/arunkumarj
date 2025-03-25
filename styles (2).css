@@ -1,0 +1,86 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Container for the app */
+.app {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+}
+
+/* Styling for search input and button */
+.search {
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search input:focus {
+    border-color: #4CAF50;
+}
+
+.search button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #45a049;
+}
+
+/* Weather card styles */
+.weather-card {
+    display: none; /* Hide until data is available */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e3f2fd;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.weather-card p {
+    margin: 8px 0;
+}
+
+.weather-card .temp {
+    font-size: 32px;
+    font-weight: bold;
+    color: #00796b;
+}
+
+.weather-card .description {
+    font-size: 18px;
+    font-style: italic;
+    color: #616161;
+}
